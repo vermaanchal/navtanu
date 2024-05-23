@@ -1,7 +1,8 @@
 /********** Template CSS **********/
 
-/* ----------#319C4C-green , #16258E-blue , #28428D-light blue, #d6f2dd-bg--------- */
+/* ----------#319C4C-green , #16258E-blue , #28428D-light blue, #eaefeb-bg--------- */
 :root {
+    /* --primary: #16D5FF; */
     --primary: #319C4C;
     --secondary: #999999;
     --light: #F2F8FE;
@@ -170,8 +171,11 @@ h6,
     transition: .5s;
 }
 
-.service-item.bg-white::after {
+/* .service-item.bg-white::after {
     border-color: transparent transparent var(--light) transparent;
+} */
+.service-item.bg-white::after {
+    border-color: #f3f6f4;
 }
 
 .service-item.bg-light::after {
@@ -352,3 +356,7 @@ h6,
 .footer .copyright a:hover {
     color: var(--dark);
 }
+
+.color-change {
+    filter:brightness(0) saturate(3%) invert(45%) sepia(124%) saturate(284%) hue-rotate(69deg) brightness(101%) contrast(75%);
+  }

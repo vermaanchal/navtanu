@@ -6,7 +6,7 @@ const Footer = () => {
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-md-6">
-                <h1 class="text-primary mb-4"><img class="img-fluid me-2" src="img/icon-1.png" alt="" style={{maxWidth: "45px"}}/>CryptoCoin</h1>
+                <h1 class="text-primary mb-4"><img class="img-fluid me-2" src="img/logo.png" alt="" style={{maxWidth: "100px"}}/></h1>
                 <span>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</span>
             </div>
             <div class="col-md-6">

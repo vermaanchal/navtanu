@@ -71,16 +71,16 @@ const About = () => {
                     </div>
                     <div className='py-5'>
                         <div className='row py-3'>
-                            <div className='col-lg-6 col-xl-5'>
-                                <div className='about-img'>
-                                    <img src="img/service-1.jpg" class="img-fluid w-100 rounded-bottom" alt="Image" />
-                                </div>
-                            </div>
-                            <div className='col-lg-6 col-xl-5'>
+                            <div className='col-lg-6 col-xl-6'>
                                 <h1 class="display-5 mb-4 ms-4">Our Vision</h1>
                                 <p class="text ps-4 mb-4">We strive to provide every Indian a world-class investment platform and sophisticated investment guidance. Our customers in over 2,000 cities across India and 66+ countries have invested over ₹12,800+ crores on our platform in Mutual Funds, Stocks and other investment products.
                                     Assisting India in taking informed investment decisions on a well defined platform that is technologically motivated has always been our core vision and will continue to be.
                                 </p>
+                            </div>
+                            <div className='col-lg-6 col-xl-6'>
+                                <div className='about-img'>
+                                    <img src="img/service-1.jpg" class="img-fluid w-100 rounded-bottom" alt="Image" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -88,15 +88,15 @@ const About = () => {
                     <div className='py-5'>
                         <div className='row py-3'>
                             <div className='col-lg-6 col-xl-6'>
+                                <div className='about-img'>
+                                    <img src="img/service-4.jpg" class="img-fluid w-100 rounded-bottom" alt="Image" />
+                                </div>
+                            </div>
+                            <div className='col-lg-6 col-xl-6'>
                                 <h1 class="display-5 mb-4 ms-4">Our Mission</h1>
                                 <p class="text ps-4 mb-4">
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores atque nihil unde quisquam, deleniti illo a. Quam harum laboriosam, laudantium, deleniti perferendis voluptates ex non laborum libero magni, minus illo!
                                 </p>
-                            </div>
-                            <div className='col-lg-6 col-xl-6'>
-                                <div className='about-img'>
-                                    <img src="img/service-4.jpg" class="img-fluid w-100 rounded-bottom" alt="Image" />
-                                </div>
                             </div>
                         </div>
                     </div>

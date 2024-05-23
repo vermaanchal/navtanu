@@ -1,18 +1,17 @@
 import React from 'react'
 import Service from './Service'
-import Info from './Info'
-import Footer from './Footer'
-import Navbar from './Navbar'
 import Banner from './Banner'
+import Testimonials from './Testimonials'
+import Customer from './Customer'
 
 const Home = () => {
   return (
     <div>
-      <Navbar/>
       <Banner />
       <Service />
-      <Info />
-      <Footer />
+      <Testimonials />
+      <Customer/>
+      {/* <Customer/> */}
     </div>
   )
 }
