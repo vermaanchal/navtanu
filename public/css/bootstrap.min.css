@@ -3083,14 +3083,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #319C4C;
-    border-color: #319C4C
+    background: linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%);
+    border-color: linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%);
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: #319C4C;
-    border-color: #319C4C
+    background: linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%);
+    border-color: linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%);
 }
 
 .btn-check:focus+.btn-primary,
@@ -3098,8 +3098,8 @@ fieldset:disabled .btn {
     color: #000;
     /* background-color: #39dbff;
     border-color: #2dd9ff; */
-    background-color: #319C4C;
-    border-color: #319C4C;
+    background: linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%);
+    border-color: linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%);
     box-shadow: 0 0 0 .25rem rgba(19, 181, 217, 0.5)
 }
 
@@ -3124,8 +3124,8 @@ fieldset:disabled .btn {
 .btn-primary:disabled,
 .btn-primary.disabled {
     color: #000;
-    background-color: #319C4C;
-    border-color: #319C4C
+    background:linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%);
+    border-color: linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%);
 }
 
 .btn-secondary {
@@ -8286,8 +8286,13 @@ fieldset:disabled .btn {
     word-break: break-word !important
 }
 
-.text-primary {
+/* .text-primary {
     color: #319C4C !important
+} */
+.text-primary {
+    background: linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent !important
 }
 
 .text-secondary {
@@ -8343,7 +8348,8 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #319C4C !important
+    /* background-color: #319C4C !important */
+    background: linear-gradient(90deg, rgba(128,213,182,1) 0%, rgba(150,196,236,1) 100%) !important;
 }
 
 .bg-secondary {

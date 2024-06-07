@@ -22,7 +22,7 @@ const Testimonials = () => {
               <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read All Reviews <i class="fas fa-arrow-right ms-2"></i></a>
             </div>
           </div>
-          <div class="col-xl-8 wow fadeInLeft" data-wow-delay="0.1s">
+          <div class="col-xl-8 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay="0.1s">
             <Slider {...settings}>
               <div className='slidee'>
               <div class="bg-white rounded p-4">

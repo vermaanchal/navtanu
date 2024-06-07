@@ -23,4 +23,5 @@ code {
 
 .slick-slider{
   height: 300px !important;
+  display: flex !important;
 }

@@ -1,7 +1,5 @@
 import React from 'react'
-import Footer from './Footer'
-import Navbar from './Navbar'
-
+import Testimonials from './Testimonials'
 const About = () => {
     return (
         <>
@@ -84,7 +82,6 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-
                     <div className='py-5'>
                         <div className='row py-3'>
                             <div className='col-lg-6 col-xl-6'>
@@ -102,6 +99,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Testimonials />
         </>
     )
 }

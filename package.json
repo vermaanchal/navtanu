@@ -2,6 +2,7 @@
   "name": "navtanu",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://stream4all01.techmates.org:5486",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
