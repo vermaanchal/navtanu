@@ -80,8 +80,13 @@ h6,
 
 /*** Navbar ***/
 .navbar.sticky-top {
-    top: -100px;
-    transition: .5s;
+    top: 0 !important;
+    z-index: 1000 !important;
+    position: sticky !important;
+    box-shadow: 0 5px 16px rgba(0,0,0,.098);
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    background-color: #F5FDFB;
 }
 
 .navbar .navbar-brand {
@@ -112,6 +117,13 @@ h6,
     vertical-align: middle;
     margin-left: 8px;
 }
+.banner{
+    background-image: url("/img/mutualresize.png");
+    background-repeat: no-repeat;
+    background-color: #F5FDFB ;
+    height: 799px;
+}
+
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
@@ -145,7 +157,10 @@ h6,
 
 .navbar .btn:hover {
     color: #FFFFFF !important;
-    background: var(--primary) !important;
+    /* background: var(--primary) !important; */
+    background: linear-gradient(90deg, rgba(128, 213, 182, 1) 0%, rgba(150, 196, 236, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important
 }
 
 
@@ -178,7 +193,7 @@ h6,
     border-color: transparent transparent var(--light) transparent;
 } */
 .service-item.bg-white::after {
-    border-color: #f3f6f4;
+    border-color: #F5FDFB;
 }
 
 .service-item.bg-light::after {
@@ -348,7 +363,10 @@ h6,
 
 .footer .btn.btn-square:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    /* background: var(--primary); */
+    background: linear-gradient(90deg, rgba(128, 213, 182, 1) 0%, rgba(150, 196, 236, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important
 }
 
 .footer .copyright {

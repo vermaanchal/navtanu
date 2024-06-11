@@ -1,4 +1,9 @@
 import React from 'react'
+import Lottie from "lottie-react";
+// import groovyWalkAnimation from "../animation2.json";
+// import groovyWalkAnimation from "../Animation 3.json";
+import groovyWalkAnimation from "../app.json";
+
 
 const Customer = () => {
   return (
@@ -18,7 +23,7 @@ const Customer = () => {
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-          <img src='img/homescren.png' width={400} height={600}/>
+        <Lottie animationData={groovyWalkAnimation} loop={true} />
         </div>
       </div>
     </div>
