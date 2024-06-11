@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from "lottie-react";
-import groovyWalkAnimation from "../banner.json";
+import groovyWalkAnimation from "../animation2.json";
 const Banner = () => {
     return (
         <>

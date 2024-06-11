@@ -1,9 +1,19 @@
 import React from 'react';
 import ListItem from './list';
-
+import Lottie from "lottie-react";
+import groovyWalkAnimation from "../animation.json";
 const Service = () => {
-    const leftItems = ['Left 1', 'Left 2', 'Left 3', 'Left 4', 'Left 5'];
-  const rightItems = ['Right 1', 'Right 2', 'Right 3', 'Right 4', 'Right 5'];
+    const items = [
+        { text: 'Mutual Funds', direction: 'left' },
+        { text: 'Stock', direction: 'right' },
+        { text: 'NPS', direction: 'left' },
+        { text: 'Insurance', direction: 'right' },
+        { text: 'Loan against Mutual Funds', direction: 'left' },
+        { text: 'Loan', direction: 'right' },
+        { text: 'Bonds', direction: 'left' },
+        { text: 'Corporate Deposits', direction: 'right' },
+    ];
+
     return (
         <>
             <div class="container-xxl py-5">
@@ -128,36 +138,42 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className='container py-5'>
+            <div className='container py-5'>
                 <div className='text-center mx-auto'>
                     <h1 class="display-6">What We Offer?</h1>
-                    <div className='App'>
-                    <div className="content">
-                        <div className="left-list">
-                            {leftItems.map((item, index) => (
-                                <ListItem
-                                    key={index}
-                                    item={item}
-                                    direction="left"
-                                />
-                            ))}
-                        </div>
-                        <div className="center-image">
-                            <img src="/img/process.png" alt="Center" />
-                        </div>
-                        <div className="right-list">
-                            {rightItems.map((item, index) => (
-                                <ListItem
-                                    key={index}
-                                    item={item}
-                                    direction="right"
-                                />
-                            ))}
+                    <div className="App">
+                        <div className="content">
+                            <div className="lists-container">
+                                <div className="left-list">
+                                    {items.filter(item => item.direction === 'left').map((item, index) => (
+                                        <ListItem
+                                            key={index}
+                                            item={item.text}
+                                            direction="left"
+                                            delay={index * 0.5} // staggered delay
+                                        />
+                                    ))}
+                                </div>
+                                <div className="center-image">
+                                    <img src="/img/offer3.webp" alt="Center" />
+                                    {/* <Lottie animationData={groovyWalkAnimation} loop={true} /> */}
+                                </div>
+                                <div className="right-list">
+                                    {items.filter(item => item.direction === 'right').map((item, index) => (
+                                        <ListItem
+                                            key={index}
+                                            item={item.text}
+                                            direction="right"
+                                            delay={index * 0.5} // staggered delay
+                                        />
+                                    ))}
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    </div>
+
                 </div>
-            </div> */}
+            </div>
         </>
 
     )

@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div style={{backgroundColor:"#F2F8FE"}}>
-            <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-navbar py-2 px-4 px-lg-5">
                 <a href="/aboutUs" class="navbar-brand d-flex align-items-center">
                     <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/logo.png" alt="" style={{ width: "100px" }} /></h2>
                 </a>
