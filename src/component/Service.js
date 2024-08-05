@@ -1,7 +1,4 @@
 import React from 'react';
-import ListItem from './list';
-import Lottie from "lottie-react";
-import groovyWalkAnimation from "../animation.json";
 const Service = () => {
     const items = [
         { text: 'Mutual Funds', direction: 'left' },
@@ -16,7 +13,7 @@ const Service = () => {
 
     return (
         <>
-            <div class="container-xxl py-5">
+            {/* <div class="bg-light container-xxl py-5">
                 <div class="container">
                     <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
                         <h1 class="display-6">Why Us!</h1>
@@ -79,9 +76,9 @@ const Service = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="container-xxl bg-light py-5 my-5">
+            </div> */}
+        
+            {/* <div class="container-xxl bg-light py-5 my-5">
                 <div class="container py-5">
                     <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "645px" }}>
                         <h1 class="display-6">One App. Manage all Investments. Feel Empowered</h1>
@@ -137,11 +134,11 @@ const Service = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='container py-5'>
-                <div className='text-center mx-auto'>
-                    <h1 class="display-6">What We Offer?</h1>
-                    <div className="App">
+            </div> */}
+            {/* <div className='my-4'>
+                <CHooseUs/>
+            </div> */}
+                        {/* <div className="App">
                         <div className="content">
                             <div className="lists-container">
                                 <div className="left-list">
@@ -156,7 +153,6 @@ const Service = () => {
                                 </div>
                                 <div className="center-image">
                                     <img src="/img/offer3.webp" alt="Center" />
-                                    {/* <Lottie animationData={groovyWalkAnimation} loop={true} /> */}
                                 </div>
                                 <div className="right-list">
                                     {items.filter(item => item.direction === 'right').map((item, index) => (
@@ -170,10 +166,18 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
+                    </div> */}
+            {/* <div className='bg-light'>
+                <div className='container py-5'>
+                    <div className='text-center mx-auto'>
+                        <h1 class="display-6">What We Offer?</h1>
+                        <CircularSlider />
                     </div>
-
                 </div>
             </div>
+            <div className='my-4'>
+                <KycSection/>
+            </div> */}
         </>
 
     )

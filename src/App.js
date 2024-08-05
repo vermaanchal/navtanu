@@ -7,6 +7,8 @@ import Home from './component/Home';
 import Contact from './component/Contact';
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
+import KnowledgeCentre from './component/KnowledgeCentre';
+import MutualFund from './component/products/MutualFund';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route exact path="/aboutUs" element={<About />} />
           <Route exact path="/services" element={<Service />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/mutualfunds" element={<MutualFund />} />
         </Routes>
        <Footer/>
       </Router>

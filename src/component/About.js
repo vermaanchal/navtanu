@@ -8,27 +8,29 @@ const About = () => {
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
                             <div class="about-img">
-                                <img src="img/about-3.png" class="img-fluid w-100 rounded-top bg-white" alt="Image" />
+                                {/* <img src="img/about-3.png" class="img-fluid w-100 rounded-top bg-white" alt="Image" /> */}
                                 <img src="img/about-2.jpg" class="img-fluid w-100 rounded-bottom" alt="Image" />
                             </div>
                         </div>
                         <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                            <h4 class="text-primary">About Us</h4>
-                            <h1 class="display-5 mb-4">The most Profitable Investments company in worldwide.</h1>
-                            <p class="text ps-4 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores atque nihil unde quisquam, deleniti illo a. Quam harum laboriosam, laudantium, deleniti perferendis voluptates ex non laborum libero magni, minus illo!
+                            <h4 class="text-primary m-3">About Us</h4>
+                            {/* <h1 class="display-5 mb-4">The most Profitable Investments company in worldwide.</h1> */}
+                            <p class="text ps-4 mb-4 text-justify">Welcome to Navtanu, where innovation meets financial empowerment.
+                                It’s a state-of-the-art wealthtech platform designed to streamline and consolidate
+                                your financial investments into a single, intuitive interface, thus, enabling
+                                investors with a cohesive view of all financial investments in a single,
+                                user-friendly interface. Our aim is to provide users with a seamless Super App experience,
+                                eliminating the hassle of switching between multiple investment applications and optimizing mobile device space.
                             </p>
+                            <p class="text ps-4 mb-4 text-justify">At Navtanu, we initially focus on the Mutual Funds Platform Space, offering users real-time data on a wide
+                                range of mutual fund schemes. Our platform features advanced analytics that enable users to evaluate fund
+                                performance metrics, track investment histories, and plan future wealth objectives effortlessly. Whether
+                                you're a seasoned investor or new to investing, our goal is to deliver a smooth, informative user experience
+                                that promotes financial literacy and accessibility within the mutual funds industry.</p>
+                            <p class="text ps-4 mb-4 text-justify">Join Navtanu today and take control of your financial future with confidence and convenience. Discover how our innovative platform can
+                                empower you to make informed investment decisions and achieve your wealth management goals effectively.</p>
                             <div class="row g-4 justify-content-between mb-5">
-                                <div class="col-lg-6 col-xl-5">
-                                    <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Strategy & Consulting</p>
-                                    <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Business Process</p>
-                                </div>
-                                <div class="col-lg-6 col-xl-7">
-                                    <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Marketing Rules</p>
-                                    <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Partnerships</p>
-                                </div>
-                            </div>
-                            <div class="row g-4 justify-content-between mb-5">
-                                <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
+                                <div class="col-xl-5 m-3"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
                             </div>
                             <div class="row g-4 text-center align-items-center justify-content-center">
                                 <div class="col-sm-4">

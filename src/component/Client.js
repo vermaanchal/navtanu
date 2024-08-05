@@ -3,23 +3,23 @@ import React from 'react'
 const Client = () => {
   return (
 
-    <section class="client_section layout_padding">
-      <div class="container">
-        <div class="heading_container heading_center psudo_white_primary mb_45">
+    <section className="client_section layout_padding">
+      <div className="container">
+        <div className="heading_container heading_center psudo_white_primary mb_45">
           <h2>
             What says our <span>Customers</span>
           </h2>
         </div>
-        <div class="carousel-wrap ">
-          <div class="owl-carousel client_owl-carousel">
-            <div class="item">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/client1.jpg" alt="" class="box-img" />
+        <div className="carousel-wrap ">
+          <div className="owl-carousel client_owl-carousel">
+            <div className="item">
+              <div className="box">
+                <div className="img-box">
+                  <img src="images/client1.jpg" alt="" className="box-img" />
                 </div>
-                <div class="detail-box">
-                  <div class="client_id">
-                    <div class="client_info">
+                <div className="detail-box">
+                  <div className="client_id">
+                    <div className="client_info">
                       <h6>
                         LusDen
                       </h6>
@@ -27,21 +27,21 @@ const Client = () => {
                         magna aliqua. Ut
                       </p>
                     </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <i className="fa fa-quote-left" aria-hidden="true"></i>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/client2.jpg" alt="" class="box-img" />
+            <div className="item">
+              <div className="box">
+                <div className="img-box">
+                  <img src="images/client2.jpg" alt="" className="box-img" />
                 </div>
-                <div class="detail-box">
-                  <div class="client_id">
-                    <div class="client_info">
+                <div className="detail-box">
+                  <div className="client_id">
+                    <div className="client_info">
                       <h6>
                         Zen Court
                       </h6>
@@ -49,21 +49,21 @@ const Client = () => {
                         magna aliqua. Ut
                       </p>
                     </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <i className="fa fa-quote-left" aria-hidden="true"></i>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/client1.jpg" alt="" class="box-img" />
+            <div className="item">
+              <div className="box">
+                <div className="img-box">
+                  <img src="images/client1.jpg" alt="" className="box-img" />
                 </div>
-                <div class="detail-box">
-                  <div class="client_id">
-                    <div class="client_info">
+                <div className="detail-box">
+                  <div className="client_id">
+                    <div className="client_info">
                       <h6>
                         LusDen
                       </h6>
@@ -71,21 +71,21 @@ const Client = () => {
                         magna aliqua. Ut
                       </p>
                     </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <i className="fa fa-quote-left" aria-hidden="true"></i>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/client2.jpg" alt="" class="box-img" />
+            <div className="item">
+              <div className="box">
+                <div className="img-box">
+                  <img src="images/client2.jpg" alt="" className="box-img" />
                 </div>
-                <div class="detail-box">
-                  <div class="client_id">
-                    <div class="client_info">
+                <div className="detail-box">
+                  <div className="client_id">
+                    <div className="client_info">
                       <h6>
                         Zen Court
                       </h6>
@@ -93,7 +93,7 @@ const Client = () => {
                         magna aliqua. Ut
                       </p>
                     </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <i className="fa fa-quote-left" aria-hidden="true"></i>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
