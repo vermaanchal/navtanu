@@ -3,7 +3,7 @@ const CHooseUs = () => {
   return (
     <section className="why_section layout_padding ">
       <div className="container ">
-        <div class="group-parent">
+        <div class="group-parent mobile_view">
           <img class="frame-child" alt="" src="/img/group-1000005988@2x.png" />
 
           <img class="frame-item" alt="" src="/img/group-1000005989@2x.png" />
@@ -250,6 +250,9 @@ const CHooseUs = () => {
           <b class="insights">Insights</b>
           <div class="why-us">WHY US</div>
         </div>
+        <div className='desktopview'>
+            <img src='/img/Frame.png' className='whyusframe'></img>
+          </div>
       </div>
     </section>
 

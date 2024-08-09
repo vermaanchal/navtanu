@@ -37,7 +37,7 @@ const Footer = () => {
                             </ul>
                         </p>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 footermargin">
                         <h5 className="mb-4">Get In Touch</h5>
                         <p><i className="fa fa-map-marker-alt me-3"></i>Navtanu Investment Private Limited
                             H1/A20, Sector 63, Noida,
@@ -46,20 +46,20 @@ const Footer = () => {
                         <p><i className="fa fa-envelope me-3"></i>Founder@navtanu.com</p>
                         <p><i className="fa fa-envelope me-3"></i>www.navtanu.com</p>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 footermargin">
                         <h5 className="mb-4">Our Services</h5>
                         <a className="btn btn-link" href="">Net Worth</a>
                         <a className="btn btn-link" href="/mutualfunds">Mutual Fund</a>
                         <a className="btn btn-link" href="/stock">Stocks</a>
                         <a className="btn btn-link" href="/insurance">Insurance</a>
-                        <a className="btn btn-link" href="/bankAccount">Bank Accounts</a>
+                        <a className="btn btn-link" href="/banking-info">Banking Info</a>
                         <a className="btn btn-link" href="/FDs&Bonds">FDs/Bonds</a>
-                        <a className="btn btn-link" href="/loans&liabilities">Loans/Liabilities</a>
+                        {/* <a className="btn btn-link" href="/loans&liabilities">Loans/Liabilities</a> */}
                         <a className="btn btn-link" href="/NPS">NPS</a>
                         <a className="btn btn-link" href="/EPFS">EPFS</a>
                         <a className="btn btn-link" href="/digitalgold">Digital Gold</a>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 footermargin">
                         <h5 className="mb-4">Quick Links</h5>
                         {/* <a href="/aboutUs" className="nav-item nav-link">About</a> */}
                         <a className="btn btn-link" href="/aboutUs">About Us</a>
@@ -72,7 +72,7 @@ const Footer = () => {
                         <a className="btn btn-link" href="/faqs">FAQs</a>
                         <a className="btn btn-link" href="/contact">Contact Us</a>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 footermargin">
                         <h5 className="mb-4">We are Social:</h5>
                         <div className="d-flex">
                             <a className="btn btn-square rounded-circle me-1" href=""><i className="fab fa-twitter"></i></a>

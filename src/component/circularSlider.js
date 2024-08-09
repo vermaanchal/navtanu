@@ -4,7 +4,7 @@ import 'react-fancy-circular-carousel/FancyCarousel.css';
 import image1 from '../Mutual_Fund.png';
 import image2 from '../Digital_Gold.png';
 import image3 from '../EPFO.png';
-import image4 from '../Fds_Bonds.png';
+import image4 from '../FDSandbonds.png';
 import image5 from '../Insurance.png';
 import image6 from '../Loans_Liabilities.png';
 import image7 from '../NPS.png';
@@ -59,35 +59,69 @@ const CircularSlider = () => {
         };
         addHeadings();
     }, [imagesWithText]);
+    const [carouselRadius, setCarouselRadius] = useState(200);
+    const [peripheralImageRadius ,setPeripheralImageRadius] =useState(50)
+    const [centralImageRadius ,setCentralImageRadius] =useState(40)
+
+    const updateCarouselRadius = () => {
+        const screenWidth = window.innerWidth;
+
+        if (screenWidth < 576) {
+            setCarouselRadius(130);
+            setPeripheralImageRadius(30)
+            setCentralImageRadius(30)  // For small screens (e.g., mobile)
+        } else if (screenWidth < 768) {
+            setCarouselRadius(210);
+            setPeripheralImageRadius(40)
+            setCentralImageRadius(30)  // For small tablets
+        } else if (screenWidth < 992) {
+            setCarouselRadius(210);
+            setPeripheralImageRadius(50)
+            setCentralImageRadius(40)  // For medium tablets and smaller laptops
+        } else {
+            setCarouselRadius(210);  // For desktops and larger laptops
+        }
+    };
+
+    useEffect(() => {
+        updateCarouselRadius(); // Set initial radius
+        window.addEventListener('resize', updateCarouselRadius); // Update on resize
+
+        return () => {
+            window.removeEventListener('resize', updateCarouselRadius); // Cleanup listener on unmount
+        };
+    }, []);
 
     return (
         <div className="carousel">
             <div className='carousel-container'>
                 <div className='row'>
-                    <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                    <div className='col-lg-6 col-md-12 col-sm-12 rotationaldiv'>
                         <div className='static-center-image'>
                             <img src={centerImage} alt="Center" />
                         </div>
-                        <FancyCarousel
-                            images={imagesWithText.map(item => item.src)}
-                            setFocusElement={setFocusElement}
-                            carouselRadius={250}
-                            peripheralImageRadius={50}
-                            centralImageRadius={60}
-                            focusElementStyling={{ border: '2px solid #ba4949' }}
-                            borderWidth={4}
-                            borderHexColor={'1c364f'}
-                            className="rotating-carousel"
-                            autoRotateTime={isAutoRotate ? 3 : 0}
-                        />
+                        <div className="carousel" style={{ '--carousel-radius': `${carouselRadius}px` }}>
+                            <FancyCarousel
+                                images={imagesWithText.map(item => item.src)}
+                                setFocusElement={setFocusElement}
+                                carouselRadius={carouselRadius}
+                                peripheralImageRadius={peripheralImageRadius}
+                                centralImageRadius={centralImageRadius}
+                                focusElementStyling={{ border: '2px solid #ba4949' }}
+                                borderWidth={4}
+                                borderHexColor={'1c364f'}
+                                className="rotating-carousel"
+                                autoRotateTime={isAutoRotate ? 3 : 0}
+                            />
+                        </div>
                     </div>
-                    <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                    <div className='col-lg-6 col-md-12 col-sm-12 tabview'>
                         <div className='info-box-wrapper2'>
                             <div className="info-box-wrapper1">
                                 <h2>{infoHeading[focusElement]}</h2>
                             </div>
                             <div className="info-box-wrapper">
-                                <img src={images[focusElement]} width={150} className='mx-auto d-block' />
+                                <img src={images[focusElement]} width={150} className='mx-auto d-block' alt="Focused" />
                                 <p>{info[focusElement]}</p>
                             </div>
                         </div>
@@ -95,6 +129,7 @@ const CircularSlider = () => {
                 </div>
             </div>
         </div>
+
     )
 }
 

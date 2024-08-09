@@ -12,9 +12,7 @@ const Teamdetail = () => {
             <div class=" fadeInLeft teamcard">
               <img class="card-img-top" src="/img/male.png" alt="Card image cap" />
               <div class="card-body">
-                {/* <h5 class="card-title">Director Finance</h5> */}
                 <p class="card-text text-center">Director Finance</p>
-                {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
               </div>
             </div>
           </div>
@@ -22,39 +20,31 @@ const Teamdetail = () => {
             <div class=" fadeInRight teamcard">
               <img class="card-img-top" src="/img/Female.png" alt="Card image cap" />
               <div class="card-body">
-                {/* <h5 class="card-title">Director Marketing</h5> */}
                 <p class="card-text text-center">Director Marketing</p>
-                {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
               </div>
             </div>
           </div>
           <div className='col'>
             <div class=" fadeInLeft teamcard">
-              <img class="card-img-top" src="/img/female5.png" alt="Card image cap" />
+              <img class="card-img-top third" src="/img/female5.png" alt="Card image cap" />
               <div class="card-body">
-                {/* <h5 class="card-title">Director Technology</h5> */}
                 <p class="card-text text-center">Director Technology</p>
-                {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
               </div>
             </div>
           </div>
           <div className='col'>
             <div class=" fadeInRight teamcard">
-              <img class="" src="/img/femalenew.png" alt="Card image cap" width={197}/>
+              <img class="fifth" src="/img/femalenew.png" alt="Card image cap" />
               <div class="card-body">
-                {/* <h5 class="card-title">Director Administration</h5> */}
-                <p class="card-text text-center">Director Administration</p>
-                {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                <p class="card-text">Director Administration</p>
               </div>
             </div>
           </div>
           <div className='col'>
-            <div class=" fadeInRight teamcard">
-              <img class="card-img-top" src="/img/female4.png" alt="Card image cap" />
+            <div class=" fadeInRight teamcard teamcard6">
+              <img class="card-img-top sixth " src="/img/female4.png" alt="Card image cap" />
               <div class="card-body">
-                {/* <h5 class="card-title">Director Operation</h5> */}
-                <p class="card-text text-center">Director Operation</p>
-                {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                <p class="card-text" style={{marginLeft:"29px"}}>Director Operation</p>
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ const Home = () => {
       <div className='bg-light'>
         <div className='container py-5'>
           <div className='text-center mx-auto'>
-            <h1 class="display-6">What We Offer?</h1>
+            <h1 class="display-6 mb-4">What We Offer?</h1>
             <CircularSlider />
           </div>
         </div>

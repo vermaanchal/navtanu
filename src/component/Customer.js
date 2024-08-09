@@ -52,7 +52,7 @@ const Customer = () => {
   };
   return (
     <>
-      <div className="container-fluid testimonial py-5">
+      <div  className="container-fluid testimonial py-5" >
         <div className="container py-5">
           <div className="row g-4 align-items-center">
             <div className="col-xl-4 col-lg-4 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay="0.1s">
@@ -60,16 +60,18 @@ const Customer = () => {
                 <h1 className="display-4 mb-4">Let's Get Started</h1>
                 <p className="mb-4 text-primary">The future of investment management at your fingertips.</p>
               </div>
+              <div id='discover-our-app' className=' d-flex justify-content-center'>
               <div>
-                <img src='img/AppStore_final.png' width={220} />
+                <img src='img/AppStore_final.png' className='appstore'/>
               </div>
-              <div className='my-4'>
-                <img src='img/PlayStore_final.png' width={220} />
+              <div className='ms-4 '>
+                <img src='img/PlayStore_final.png' className='appstore'/>
+              </div>
               </div>
             </div>
 
             <div className="col-xl-8 col-lg-8 col-sm-12 col-xs-12 wow fadeInLeft why_section" data-wow-delay="0.1s">
-              <div className=""
+              <div className="videodivv"
               >
                 {/* <span style={{ '--i': 1 }}>
                   <div className="front"><img src={slide1} alt="slide_image" /></div>
@@ -94,8 +96,7 @@ const Customer = () => {
                 <video
                   ref={videoRef}
                   src={video}
-                  width={1300}
-                  height={800}
+                  className='videosec'
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                   muted

@@ -30,7 +30,7 @@ const PrettoSlider = styled(Slider)(({ theme }) => ({
 }));
 
 const Calculator = () => {
-    const [pAmount, setpAmount] = useState(2755000);
+    const [pAmount, setpAmount] = useState(1000000);
     const [interest, setinterest] = useState(7);
     const [duration, setDuration] = useState(147);
     const maxValue = 60000000;

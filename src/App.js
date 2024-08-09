@@ -9,6 +9,7 @@ import Navbar from './component/Navbar';
 import Footer from './component/Footer';
 import KnowledgeCentre from './component/KnowledgeCentre';
 import MutualFund from './component/products/MutualFund';
+import WhyNavtanu from './component/WhyNavtanu';
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/aboutUs" element={<About />} />
-          <Route exact path="/services" element={<Service />} />
+          <Route exact path="/whyNavtanu" element={<WhyNavtanu />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/mutualfunds" element={<MutualFund />} />
+
         </Routes>
        <Footer/>
       </Router>

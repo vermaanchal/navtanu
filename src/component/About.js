@@ -9,20 +9,20 @@ const About = () => {
                         <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
                             <div class="about-img">
                                 {/* <img src="img/about-3.png" class="img-fluid w-100 rounded-top bg-white" alt="Image" /> */}
-                                <img src="img/about-2.jpg" class="img-fluid w-100 rounded-bottom" alt="Image" />
+                                <img src="img/Aboutus.png" class="img-fluid w-100 rounded-bottom" alt="Image" />
                             </div>
                         </div>
                         <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
                             <h4 class="text-primary m-3">About Us</h4>
                             {/* <h1 class="display-5 mb-4">The most Profitable Investments company in worldwide.</h1> */}
-                            <p class="text ps-4 mb-4 text-justify">Welcome to Navtanu, where innovation meets financial empowerment.
+                            <p class="text ps-4 mb-4 text-justify" style={{textAlign:"justify"}}>Welcome to Navtanu, where innovation meets financial empowerment.
                                 It’s a state-of-the-art wealthtech platform designed to streamline and consolidate
                                 your financial investments into a single, intuitive interface, thus, enabling
                                 investors with a cohesive view of all financial investments in a single,
                                 user-friendly interface. Our aim is to provide users with a seamless Super App experience,
                                 eliminating the hassle of switching between multiple investment applications and optimizing mobile device space.
                             </p>
-                            <p class="text ps-4 mb-4 text-justify">At Navtanu, we initially focus on the Mutual Funds Platform Space, offering users real-time data on a wide
+                            <p class="text ps-4 mb-4 text-justify" style={{textAlign:"justify"}}>At Navtanu, we initially focus on the Mutual Funds Platform Space, offering users real-time data on a wide
                                 range of mutual fund schemes. Our platform features advanced analytics that enable users to evaluate fund
                                 performance metrics, track investment histories, and plan future wealth objectives effortlessly. Whether
                                 you're a seasoned investor or new to investing, our goal is to deliver a smooth, informative user experience
@@ -73,13 +73,15 @@ const About = () => {
                         <div className='row py-3'>
                             <div className='col-lg-6 col-xl-6'>
                                 <h1 class="display-5 mb-4 ms-4">Our Vision</h1>
-                                <p class="text ps-4 mb-4">We strive to provide every Indian a world-class investment platform and sophisticated investment guidance. Our customers in over 2,000 cities across India and 66+ countries have invested over ₹12,800+ crores on our platform in Mutual Funds, Stocks and other investment products.
+                                <p class="text ps-4 mb-4" style={{textAlign:"justify"}}>We strive to provide every Indian a world-class investment platform and sophisticated investment guidance. Our customers in over 2,000 cities across India and 66+ countries have invested over ₹12,800+ crores on our platform in Mutual Funds, Stocks and other investment products.
+                                    Assisting India in taking informed investment decisions on a well defined platform that is technologically motivated has always been our core vision and will continue to be.
+                                    We strive to provide every Indian a world-class investment platform and sophisticated investment guidance. Our customers in over 2,000 cities across India and 66+ countries have invested over ₹12,800+ crores on our platform in Mutual Funds, Stocks and other investment products.
                                     Assisting India in taking informed investment decisions on a well defined platform that is technologically motivated has always been our core vision and will continue to be.
                                 </p>
                             </div>
                             <div className='col-lg-6 col-xl-6'>
                                 <div className='about-img'>
-                                    <img src="img/service-1.jpg" class="img-fluid w-100 rounded-bottom" alt="Image" />
+                                    <img src="img/Vision.png" class="img-fluid w-100 rounded-bottom" alt="Image" />
                                 </div>
                             </div>
                         </div>
@@ -88,20 +90,23 @@ const About = () => {
                         <div className='row py-3'>
                             <div className='col-lg-6 col-xl-6'>
                                 <div className='about-img'>
-                                    <img src="img/service-4.jpg" class="img-fluid w-100 rounded-bottom" alt="Image" />
+                                    <img src="img/Mission.png" class="missionimg rounded-bottom" alt="Image" />
                                 </div>
                             </div>
                             <div className='col-lg-6 col-xl-6'>
                                 <h1 class="display-5 mb-4 ms-4">Our Mission</h1>
-                                <p class="text ps-4 mb-4">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores atque nihil unde quisquam, deleniti illo a. Quam harum laboriosam, laudantium, deleniti perferendis voluptates ex non laborum libero magni, minus illo!
+                                <p class="text ps-4 mb-4" style={{textAlign:"justify"}}>
+                                We strive to provide every Indian a world-class investment platform and sophisticated investment guidance. Our customers in over 2,000 cities across India and 66+ countries have invested over ₹12,800+ crores on our platform in Mutual Funds, Stocks and other investment products.
+                                Assisting India in taking informed investment decisions on a well defined platform that is technologically motivated has always been our core vision and will continue to be.
+                                We strive to provide every Indian a world-class investment platform and sophisticated investment guidance. Our customers in over 2,000 cities across India and 66+ countries have invested over ₹12,800+ crores on our platform in Mutual Funds, Stocks and other investment products.
+                                    Assisting India in taking informed investment decisions on a well defined platform that is technologically motivated has always been our core vision and will continue to be.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <Testimonials />
+            {/* <Testimonials /> */}
         </>
     )
 }

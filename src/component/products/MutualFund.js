@@ -4,6 +4,7 @@ import GoalCalculator from './GoalCalculator'
 import Cards from './Cards'
 import KnowledgeCentre from '../KnowledgeCentre'
 import { useLocation } from 'react-router-dom';
+import NFOList from './NFOList'
 const MutualFund = () => {
     const { hash } = useLocation();
 
@@ -32,7 +33,7 @@ const MutualFund = () => {
                             </div>
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                            <img src='/img/mf.png' className='mutualimg' />
+                            <img src='/img/mutualfundimage.png' className='mutualimg' />
                         </div>
                     </div>
                 </div>
@@ -66,13 +67,18 @@ const MutualFund = () => {
                     <Cards/>
                 </div> */}
                 </div>
-                <div>
-                    <div>
-                        <h1 class="animated slideInDown text-primary my-4 py-4 text-center text-decoration-underline">Explore Your Mutual Fund</h1>
-                    </div>
+            </div>
+            <div className='bg-light'>
+                <div className='container'>
+                    <h1 class="animated slideInDown text-primary my-4 py-4 text-center text-decoration-underline">Explore Your Mutual Fund</h1>
                     <div>
                         <Cards />
                     </div>
+                </div>
+            </div>
+            <div className='my-4'>
+                <div className=''>
+                    <NFOList />
                 </div>
             </div>
             <div id='knowledge_center' className='bg-light'>

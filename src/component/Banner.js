@@ -19,10 +19,10 @@ const Banner = () => {
                             <a href="" className="btn btn-primary py-3 px-4 animated slideInDown rounded-pill">Download Our App to Explore More</a>
                             <div className='d-flex'>
                                 <div className='pt-5'>
-                                    <img src='img/AppStore_final.png' width={180} />
+                                    <img src='img/AppStore_final.png' className='bannerim' />
                                 </div>
                                 <div className='ms-4 pt-5'>
-                                    <img src='img/PlayStore_final.png' width={180} />
+                                    <img src='img/PlayStore_final.png'className='bannerim' />
                                 </div>
                             </div>
                         </div>

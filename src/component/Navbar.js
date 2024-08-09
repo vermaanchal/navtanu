@@ -33,10 +33,10 @@ const Navbar = () => {
                                     <img src={mutual} width={38} height={38}></img>
                                 <a href="/mutualfunds" className="dropdown-item">Mutual Funds</a>
                                 </div>
-                                <div className='col-lg-6 col-md-6 d-flex'>
+                                {/* <div className='col-lg-6 col-md-6 d-flex'>
                                     <img src={bank} width={38} height={38}></img>
                                 <a href="/bankAccount" className="dropdown-item">Bank Accounts</a>
-                                </div>
+                                </div> */}
                                 <div className='col-lg-6 col-md-6 d-flex'>
                                     <img src={stock} width={38} height={38}></img>
                                 <a href="/stock" className="dropdown-item">Stocks</a>
@@ -64,7 +64,10 @@ const Navbar = () => {
                                 </div>
                                 <div className='col-lg-6 col-md-6 d-flex'>
                                     <img src={loan} width={38} height={38}></img>
-                                <a href="/loans&liabilities" className="dropdown-item">Loans &Liabilities</a>
+                                <a href="/banking-info" className="dropdown-item">
+                                {/* Loans &Liabilities */}
+                                Banking Info
+                                </a>
                                 </div>
                             </div>
                             </div>
@@ -81,7 +84,7 @@ const Navbar = () => {
                             </ul> */}
                         </div>
                         <a href="/aboutUs" className="nav-item nav-link">About</a>
-                        <a href="/services" className="nav-item nav-link">Why Navtanu</a>
+                        <a href="/whyNavtanu" className="nav-item nav-link">Why Navtanu</a>
                         <a href="/contact" className="nav-item nav-link">Contact</a>
                     </div>
                     <div className="h-100 d-lg-inline-flex align-items-center d-none">
